@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 p {
@@ -38,7 +38,7 @@ aside {
   overflow: hidden;
   float: right;
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: gray;
   font-size: 14px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -87,22 +87,63 @@ aside {
     margin-right: 10px;
 }
 
-#samplebox1{
-    align-content: center; 
+#port1{
+    float: left;
+    width: 275px; 
+    height: 200px; 
+    margin: 10px 35px 10px 0px; 
+    padding-top: 120px;
     background-image: url("../images/portfolio/lorempixel.jpg");
-    width: 250px; 
-    height: 125px; 
-    margin-right: 10px;
 }
 
-#samplename{
-    position: fixed;
-    align-content: center; 
+#port2{
+    float: left;
+    width: 275px; 
+    height: 200px; 
+    margin: 10px 0px 10px 0px; 
+    padding-top: 120px;
+    background-image: url("../images/portfolio/lorempixel-1.jpg");
+}
+
+#port3{
+    float: left;
+    width: 275px; 
+    height: 200px; 
+    margin: 10px 35px 10px 0px; 
+    padding-top: 120px;
+    background-image: url("../images/portfolio/lorempixel-2.jpg");
+}
+
+#port4{
+    float: left;
+    width: 275px; 
+    height: 200px; 
+    margin: 10px 0px 10px 0px; 
+    padding-top: 120px;
+    background-image: url("../images/portfolio/lorempixel-3.jpg");
+}
+
+#port5{
+    float: left;
+    width: 275px; 
+    height: 200px;  
+    margin: 10px 30px 10px 0px; 
+    padding-top: 120px;
+    background-image: url("../images/portfolio/lorempixel-4.jpg");
+}
+
+
+#portname{
     width: 100%;
     padding: 10px; 
     background-color: #4aaaa5;
+    text-align: center; 
     color: white; 
-    margin-bottom: 5px; 
+}
+
+form{
+  color: gray;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 footer {
