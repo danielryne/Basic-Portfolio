@@ -28,12 +28,15 @@
           <div id="line"></div>
         </div>
         
-        <form>
-          First name:<br>
-          <input type="text" name="firstname"><br>
-          Last name:<br>
-          <input type="text" name="lastname">
-        </form>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          Name:<br>
+          <input type="text" name="name" placeholder="Jane Smith"><br>
+          E-mail:<br>
+        <input type="text" name="mail" placeholder="email@gmail.com"><br>
+        Message<br>
+        <input id="messagewindow" type="text" name="message"><br><br>
+        <input id="submitbutton" type="submit" value="Submit">
+</form>
         
       </div>
 
